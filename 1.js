@@ -32,6 +32,6 @@ function arrayCoherance(arr1,arr2) {
   
 
   //space complexity O(n+m)
-
+//time complexity O(n^2)
   console.log(arrayCoherance([1,2,3,4,5,6],
                             [7,8,3,4,9,10]))

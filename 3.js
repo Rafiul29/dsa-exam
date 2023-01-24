@@ -13,16 +13,6 @@ class Graph{
             this.adjacencyList[vertex]=new Set()
         }
     }
-    addEdge(vertex1,vertex2){
-        if(!this.adjacencyList[vertex1]){
-            this.addVertext(vertex1)
-        }if(!this,this.adjacencyList[vertex2]){
-            this.addVertext(vertex2)
-        }
-
-        this.adjacencyList[vertex1].add(vertex2)
-        this.adjacencyList[vertex2].add(vertex1)
-    }
     display() {
         for (let vertex in this.adjacencyList) {
           console.log(vertex + " --> " + [...this.adjacencyList[vertex]]);
